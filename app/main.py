@@ -3,8 +3,8 @@ from fastapi.responses import FileResponse, HTMLResponse
 import uuid
 import os
 
-from extractor import extraer_conversacion
-from file_generator import generar_txt, generar_docx
+from app.extractor import extraer_conversacion
+from app.file_generator import generar_txt, generar_docx
 
 app = FastAPI()
 
