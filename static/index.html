@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Extractor de Conversaciones</title>
+</head>
+<body>
+  <h2>Extraer conversación de ChatGPT</h2>
+
+  <form action="/extraer" method="post">
+    <label>Enlace de la conversación:</label><br>
+    <input type="url" name="url" required style="width:400px;"><br><br>
+
+    <label>Formato:</label><br>
+    <select name="formato">
+      <option value="txt">TXT</option>
+      <option value="docx">WORD</option>
+    </select><br><br>
+
+    <button type="submit">Descargar</button>
+  </form>
+</body>
+</html>
